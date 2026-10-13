@@ -44,7 +44,7 @@ Nasceu como trabalho de faculdade, em 2022, e foi retomado e finalizado em 2026.
 - **Câmera:** o ponto é batido com a foto tirada na hora, com uma prévia e um oval para enquadrar o rosto. A escolha de um arquivo continua existindo.
 - **Telas que funcionam:** cadastro, edição e remoção de funcionário, gerenciamento de pontos, avisos de foto não reconhecida e relatórios em planilha.
 - **Visual refeito:** layouts que se ajustam no lugar de posições fixas, tema claro, tabelas ordenáveis e as fontes Inter e JetBrains Mono.
-- **Testes sem mock:** 87 testes que usam o banco de verdade numa pasta temporária. As fotos de exemplo protegem o limite da comparação, e quebras propositais no código confirmaram que os testes pegam o erro.
+- **Testes sem mock:** 93 testes que usam o banco de verdade numa pasta temporária. As fotos de exemplo protegem o limite da comparação, e quebras propositais no código confirmaram que os testes pegam o erro.
 - **Entrega:** build e testes a cada mudança no GitHub Actions, e o `.jar` publicado na release a cada versão.
 
 </details>
