@@ -11,7 +11,7 @@
 
     <name>Ponto Facial</name>
     <description>Sistema de ponto que reconhece o funcionário comparando a foto com as cadastradas.</description>
-    <url>https://github.com/guavovic/ponto-facial</url>
+    <url>https://github.com/guavovic/registro-de-ponto-facial</url>
 
     <properties>
         <revision>2.0.0-SNAPSHOT</revision>
