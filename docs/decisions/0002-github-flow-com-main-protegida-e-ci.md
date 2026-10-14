@@ -20,9 +20,9 @@ GitHub Flow.
 
 - Toda mudança vai numa branch própria (`feat/...`, `fix/...`, `chore/...`) e entra na `main` por pull request.
 - A `main` é protegida: pull request obrigatória, e o check `Build` precisa passar antes do merge. A regra vale também para administradores.
-- O workflow de CI (`.github/workflows/ci.yml`) roda `./mvnw verify` com o JDK 25 (Temurin) em toda pull request e em todo push na `main`. Aviso de compilação quebra o build.
+- O workflow de CI roda o build completo com o JDK 25 em toda pull request e em todo push na `main`. Aviso de compilação quebra o build.
 - O CI roda só no Linux. O bytecode é o mesmo em qualquer sistema, então compilar em três não acrescenta nada por enquanto. Quando houver testes que dependem do sistema, como os de caminho de arquivo, o workflow ganha uma matriz com Windows e macOS.
-- O Dependabot acompanha os plugins do Maven e as actions do workflow uma vez por mês, com as atualizações agrupadas numa PR por ecossistema. As correções de segurança chegam pelos alertas do GitHub assim que saem.
+- As dependências e o próprio workflow são atualizados de forma automática e periódica, com as mudanças agrupadas. As correções de segurança chegam pelos alertas do GitHub assim que saem.
 - As versões são tags na `main` (`v1.0.0` marca o sistema da faculdade, e a v2 sai como tag quando a trilha fechar).
 
 ## Consequências

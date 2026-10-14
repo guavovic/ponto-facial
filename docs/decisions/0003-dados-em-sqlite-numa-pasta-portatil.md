@@ -34,7 +34,7 @@ Como guardar funcionários e pontos:
 
 SQLite numa pasta `data/` ao lado do programa.
 
-- A pasta é a do `.jar`. Rodando pelas classes compiladas (na IDE), é a pasta de onde o programa foi aberto. `-Dfacepoint.data=<pasta>` troca o local.
+- A pasta é a do `.jar`. Rodando pelas classes compiladas (na IDE), é a pasta de onde o programa foi aberto. Uma opção de execução permite trocar o local.
 - `data/facepoint.db` guarda os funcionários e os pontos. Cada ponto tem o funcionário, a data e hora e a nota da comparação.
 - As fotos continuam arquivos de imagem, em `data/photos/<id do funcionário>/`, e um funcionário pode ter mais de uma.
 - O esquema do banco é versionado com `PRAGMA user_version`: cada mudança futura entra como um novo passo na lista de migrações, e o banco de quem já usa o programa é atualizado ao abrir.
