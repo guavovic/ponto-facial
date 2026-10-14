@@ -10,7 +10,7 @@ A comparação é da imagem inteira, pixel a pixel, sem detectar rosto nem usar 
 
 **Tecnologias:** Java 25, Swing, SQLite e OpenCV.
 
-O `.jar` está na [última release](https://github.com/guavovic/registro-de-ponto-facial/releases/latest), e as decisões do projeto estão em [`docs/decisions`](docs/decisions).
+As decisões do projeto estão em [`docs/decisions`](docs/decisions).
 
 ---
 
