@@ -8,7 +8,7 @@ A comparação é da imagem inteira, pixel a pixel, sem detectar rosto nem usar 
 
 <sub>Rostos de exemplo: avatares do <a href="https://www.dicebear.com">DiceBear</a> (estilo Lorelei), licença <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.</sub>
 
-**Tecnologias:** Java 25, Swing com FlatLaf, SQLite, OpenCV (câmera no Windows), JUnit, Maven e GitHub Actions.
+**Tecnologias:** Java 25, Swing e SQLite.
 
 O `.jar` está na [última release](https://github.com/guavovic/registro-de-ponto-facial/releases/latest), e as decisões do projeto estão em [`docs/decisions`](docs/decisions).
 
