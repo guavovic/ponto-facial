@@ -14,4 +14,4 @@ As decisões do projeto estão em [`docs/decisions`](docs/decisions).
 
 ---
 
-<sub>Licença [MIT](LICENSE) · Feito por [Gustavo Victor](https://github.com/guavovic)</sub>
+<sub>Feito por [Gustavo Victor](https://github.com/guavovic)</sub>
